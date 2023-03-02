@@ -2,8 +2,8 @@ const Home = () => {
   return (
     <>
       <span class="introduction">
-        <article className="">
-          <div className="profile-body">
+        <div className="container profile-body justify-content-center">
+          <article className="introduction">
             <h1 className="">Todd Hickam</h1>
             <img
               class="profile-image my-2"
@@ -31,8 +31,8 @@ const Home = () => {
               area would make it difficult to expand my little company, I
               negotiated a sale and moved back to Portland, OR.
             </p>
-          </div>
-        </article>
+          </article>
+        </div>
       </span>
     </>
   );

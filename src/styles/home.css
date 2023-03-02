@@ -3,6 +3,10 @@ article {
   opacity: 90%;
 }
 
+div.profile-body {
+  padding: 1em; 
+}
+
 img.profile-image {
   width: 300px;
   height: 300px;
@@ -21,22 +25,14 @@ p.introduction::first-line {
 }
 
 @media (min-width: 680px) {
-  div.profile-body {
-    margin: 3em 10em 0 10em;
-    padding: 1em;
-  }
-
-  article {
-    margin: 1em 4em;
+  article.introduction {
+    padding: 1em 5em;
   }
 }
 
-@media (min-width: 400px) and (max-width: 679.98px) {
-  div.profile-body {
-    margin: 3em 2em 0 2em;
-    padding: 1em;
-  }
-  article {
-    margin: 1em 1em;
-  }
+@media (max-width: 679.98px) {
+  article.introduction {
+    padding: 1em 1em;
+  };
+
 }
