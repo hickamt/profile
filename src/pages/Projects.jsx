@@ -4,11 +4,9 @@ const Projects = () => {
       <h1 className="text-center mt-3">Projects Page</h1>
       <div className="container">
         <div className="row mx-auto">
-
           {/* Card One */}
           <div className="col-lg-4 col-md-4 col-sm-12">
             <div className="card bg-secondary">
-            {/* <div className="card mx-auto"> */}
               <img
                 src="white_folder_green_psu.png"
                 alt=""

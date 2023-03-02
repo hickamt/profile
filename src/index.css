@@ -22,14 +22,3 @@ body {
   min-height: 46em;
   
 }
-
-/* Layout Links */
-a {
-  font-weight: 500;
-  text-decoration: inherit;
-}
-
-a:hover {
-  color: black;
-  background: var(--text);
-}
