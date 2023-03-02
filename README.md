@@ -1,4 +1,4 @@
-# Profile Project | Todd Hickam | PSU Computer Science Undergraduate
+# Todd Hickam | PSU Computer Science Undergraduate
 
 Run this application on StackBlitz:
 

@@ -1,54 +1,3 @@
-// function radioCheck() {
-//   let radio1 = document.getElementById("gridRadios1");
-//   let radio2 = document.getElementById("gridRadios2");
-//   if (radio1.checked) return radio1.value;
-//   if (radio2.checked) return radio2.value;
-//   return "No Newsletter Submission";
-// }
-
-// function dateValidation() {
-//   let date = document.getElementById("date").value;
-//   return date === "" ? "No Submission" : date;
-// }
-
-// function emailValidation() {
-//   let email = document.getElementById("email").value;
-//   return email === "" ? "No Submission" : email;
-// }
-
-// function usernameValidation() {
-//   let username = document.getElementById("text").value;
-//   return username === "" ? "No Submission" : username;
-// }
-
-// function inputVerification() {
-//   return document.getElementById("text") === "" ||
-//     document.getElementById("email").value === ""
-//     ? false
-//     : true;
-// }
-
-// document.getElementById("form").addEventListener("submit", (event) => {
-//   if (inputVerification() === false) {
-//     console.log("You must enter a username and email to submit the form");
-//   } else {
-//     let header = "========== Form Submission ==========";
-//     console.log(
-//       header,
-//       "\nUsername:\t",
-//       usernameValidation(),
-//       "\nEmail:\t\t",
-//       emailValidation(),
-//       "\nNewsletter:\t",
-//       radioCheck(),
-//       "\nDate:\t\t",
-//       dateValidation()
-//     );
-//   }
-//   event.preventDefault();
-// });
-
-
 
 const Contact = () => {
   return (
@@ -142,3 +91,55 @@ const Contact = () => {
 };
 
 export default Contact;
+
+// function radioCheck() {
+//   let radio1 = document.getElementById("gridRadios1");
+//   let radio2 = document.getElementById("gridRadios2");
+//   if (radio1.checked) return radio1.value;
+//   if (radio2.checked) return radio2.value;
+//   return "No Newsletter Submission";
+// }
+
+// function dateValidation() {
+//   let date = document.getElementById("date").value;
+//   return date === "" ? "No Submission" : date;
+// }
+
+// function emailValidation() {
+//   let email = document.getElementById("email").value;
+//   return email === "" ? "No Submission" : email;
+// }
+
+// function usernameValidation() {
+//   let username = document.getElementById("text").value;
+//   return username === "" ? "No Submission" : username;
+// }
+
+// function inputVerification() {
+//   return document.getElementById("text") === "" ||
+//     document.getElementById("email").value === ""
+//     ? false
+//     : true;
+// }
+
+// document.getElementById("form").addEventListener("submit", (event) => {
+//   if (inputVerification() === false) {
+//     console.log("You must enter a username and email to submit the form");
+//   } else {
+//     let header = "========== Form Submission ==========";
+//     console.log(
+//       header,
+//       "\nUsername:\t",
+//       usernameValidation(),
+//       "\nEmail:\t\t",
+//       emailValidation(),
+//       "\nNewsletter:\t",
+//       radioCheck(),
+//       "\nDate:\t\t",
+//       dateValidation()
+//     );
+//   }
+//   event.preventDefault();
+// });
+
+
