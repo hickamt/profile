@@ -14,7 +14,7 @@ body {
   padding: 0;
   margin-bottom: 3em;
   background: var(--background);
-  background-image: url("dark_theme_wallpaper.jpg");
+  /* background-image: url("dark_theme_wallpaper.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--text);

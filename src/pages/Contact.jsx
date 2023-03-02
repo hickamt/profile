@@ -1,3 +1,8 @@
+import React from "react";
+
+const testArray = [];
+
+
 const Contact = () => {
   return (
     <>
@@ -7,7 +12,15 @@ const Contact = () => {
         </div>
         <div class="row mb-3 mt-3">
           <label for="text" class="col-sm-4 col-form-label">
-            Username:
+            First:
+          </label>
+          <div class="col-sm-8">
+            <input type="text" class="form-control" id="text" />
+          </div>
+        </div>
+        <div class="row mb-3 mt-3">
+          <label for="text" class="col-sm-4 col-form-label">
+            Last:
           </label>
           <div class="col-sm-8">
             <input type="text" class="form-control" id="text" />
@@ -21,17 +34,9 @@ const Contact = () => {
             <input type="email" class="form-control" id="email" />
           </div>
         </div>
-        <div class="row mb-3">
-          <label for="password" class="col-sm-4 col-form-label">
-            Password:
-          </label>
-          <div class="col-sm-8">
-            <input type="password" class="form-control" id="password" />
-          </div>
-        </div>
         <fieldset class="row mb-3">
           <legend class="col-form-label pt-0">
-            Would you like to sign up for the newsletter?
+            Get alerts on my future projects?
           </legend>
           <div class="col-sm-10">
             <div class="form-check">

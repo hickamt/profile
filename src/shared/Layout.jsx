@@ -4,7 +4,7 @@ import { Outlet, Link } from "react-router-dom";
 const Layout = () => {
   return (
     <>
-      <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar sticky-top navbar-expand-md navbar-light bg-light">
         <div className="container-fluid">
           <Link className="nav-link" to="/">
             <img src="psu.svg" alt="PSU Logo Home" width="40" height="40" />
@@ -21,17 +21,17 @@ const Layout = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
-              <li className="nav-item">
-                <Link className="nav-link" to="/projects">
+              <li className="nav-item active">
+                <Link className="nav-link active" to="/projects">
                   Projects
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item active">
                 <Link className="nav-link" to="/resume">
                   Resume
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item active">
                 <Link className="nav-link" to="/contact">
                   Contact
                 </Link>
@@ -41,6 +41,12 @@ const Layout = () => {
         </div>
       </nav>
 
+      {/* <div
+        className="navbar-toggler"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav">
+        <Outlet />
+      </div> */}
       <Outlet />
 
       {/* Footer */}
