@@ -5,7 +5,7 @@
 :root {
   --background: #242424;
   --text-background: #222222;
-  --color: white;
+  --text: white;
 }
 
 /* Layout */
@@ -17,9 +17,10 @@ body {
   background-image: url("dark_theme_wallpaper.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: var(--color);
+  color: var(--text);
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
-  min-height: 60em;
+  min-height: 46em;
+  
 }
 
 /* Layout Links */
@@ -30,7 +31,7 @@ a {
 
 a:hover {
   color: black;
-  background: var(--color);
+  background: var(--text);
 }
 
 /* Layout Footer */

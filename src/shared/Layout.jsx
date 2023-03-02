@@ -52,7 +52,7 @@ const Layout = () => {
       <footer className="footer py-3 bg-light font-dark fixed-bottom">
         <div className="container text-center fs-6">
           <span className="text-dark">
-            Todd Hickam | PSU Intro to Web Dev | Winter 2023
+            Todd Hickam | PSU Winter 2023
           </span>
         </div>
       </footer>

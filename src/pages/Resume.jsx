@@ -73,10 +73,8 @@ _Phone Banker 2_
 const Resume = () => {
   return (
     <>
-    <h1 className="resume text-center my-3">
-      Resume
-    </h1>
-      <div className="container resume">
+      <div className="container overflow-auto mt-4 resume">
+        <h1 className="resume text-center">Resume</h1>
         <ReactMarkdown children={resume} />
       </div>
     </>
