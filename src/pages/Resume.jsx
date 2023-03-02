@@ -2,9 +2,7 @@ import React from "react";
 import ReactMarkdown from "react-markdown";
 
 const resume = `
-Todd J. Hickam
-
-1622 S Dogwood St.
+Todd Hickam
 
 Cornelius, OR 97113
 
@@ -69,13 +67,15 @@ _Phone Banker 2_
 - Editors: Visual Studio Code, VIM
 - Command Line: Terminal, PowerShell
 - Operating Systems: Microsoft Windows, Linux/Ubuntu
-- Software: Microsoft Office Excel, Word, PowerPoint, OneNote, Outlook,
-
-Adobe Acrobat Reader, Adobe Lightroom Classic, Explorer/Edge, Fire Fox, Google, Propellerhead Reason 10`;
+- Software: Microsoft Office Excel, Word, PowerPoint, OneNote, Outlook, 
+- Software: Adobe Acrobat Reader, Adobe Lightroom Classic, Explorer/Edge, Fire Fox, Google, Propellerhead Reason 10`;
 
 const Resume = () => {
   return (
     <>
+    <h1 className="resume text-center my-3">
+      Resume
+    </h1>
       <div className="container resume">
         <ReactMarkdown children={resume} />
       </div>

@@ -2,3 +2,18 @@ div.resume {
   background-color: var(--text-background);
   opacity: 90%;
 }
+
+
+@media (min-width: 680px) {
+  div.resume {
+    max-width: 75%;
+    padding: 2em;
+  }
+}
+
+@media (max-width: 679.98px) {
+  div.resume {
+    padding: 2em;
+    max-width: 90%;
+  }
+}

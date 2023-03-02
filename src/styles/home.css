@@ -1,12 +1,9 @@
 article {
   background-color: var(--text-background);
-  /* margin-top: 1em; */
   opacity: 90%;
-  /* border-radius: 0.5em; */
 }
 
 img.profile-image {
-  /* border-radius: 0.5em; */
   width: 300px;
   height: 300px;
 }
