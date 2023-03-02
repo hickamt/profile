@@ -1,21 +1,19 @@
 div.resume {
   background-color: var(--text-background);
   opacity: 90%;
-  max-height: 43em;
+  padding: 2em;
 }
-
 
 @media (min-width: 680px) {
   div.resume {
+    max-height: 43em;
     max-width: 75%;
-    padding: 2em;
+    margin-top: 3em;
   }
 }
 
 @media (max-width: 679.98px) {
   div.resume {
-    max-width: 90%;
-    padding: 2em;
-    max-height: 28em;
+    margin-bottom: 0;
   }
 }

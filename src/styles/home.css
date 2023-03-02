@@ -4,6 +4,8 @@ article {
 }
 
 div.profile-body {
+  background-color: var(--text-background);
+  opacity: 85%;
   padding: 1em; 
 }
 
@@ -15,7 +17,8 @@ img.profile-image {
 h1.introduction,
 p.introduction,
 h2.introduction,
-p.introduction-body {
+p.introduction-body,
+li {
   text-align: left;
 }
 
@@ -25,14 +28,10 @@ p.introduction::first-line {
 }
 
 @media (min-width: 680px) {
-  article.introduction {
-    padding: 1em 5em;
-  }
 }
 
 @media (max-width: 679.98px) {
-  article.introduction {
-    padding: 1em 1em;
-  };
-
+  div.profile-body {
+    text-align: center;
+  }
 }
