@@ -4,7 +4,7 @@ import { Outlet, Link } from "react-router-dom";
 const Layout = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
           <Link className="nav-link" to="/">
             <img src="psu.svg" alt="PSU Logo Home" width="40" height="40" />
