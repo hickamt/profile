@@ -1,0 +1,34 @@
+{
+  "name": "hickam_t_profile",
+  "homepage": "https://github.com/hickamt/hickamt.github.io/",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "vite": "^4.1.0"
+  },
+  "description": "[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/hickamt/hickamt.github.io/)",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hickamt/hickam_t_profile.git"
+  },
+  "author": "Todd Hickam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hickamt/hickam_t_profile/issues"
+  }
+}

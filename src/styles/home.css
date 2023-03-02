@@ -1,0 +1,40 @@
+/* The class names and style below were added to help you get started with the styling the pages.
+If you would prefer, you can delete them and use your own classes and style defintions. */
+
+span.introduction {
+  /* text-align: center; */
+}
+
+article {
+  background-color: #222222;
+}
+
+img.profile-image {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+h1.introduction,
+p.introduction,
+h2.introduction,
+p.introduction-body {
+  text-align: left;
+}
+
+p.introduction::first-line {
+  font-weight: bold;
+  font-size: large;
+}
+
+@media (min-width: 680px) {
+  main {
+    margin: 3em 10em 0 10em;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 679px) {
+  main {
+    margin: 3em 3em 0 3em;
+  }
+}

@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --background: #242424;
+  --color: white;
+}
+
+/* Layout */
+body {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 4em;
+  background: var(--background);
+  background-image: url("dark_theme_wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--color);
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  min-height: 60em;
+}
+
+/* Layout Links */
+a {
+  font-weight: 500;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: black;
+  background: var(--color);
+}
+
+/* Layout Footer */
+.footer {
+}
