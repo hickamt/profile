@@ -55,7 +55,7 @@ const Contact = () => {
     <>
       {/* <h1>Contact Page</h1> */}
 
-      <form id="form" class="form bg-dark mx-auto mt-5 py-4 px-3 rounded">
+      <form id="form" class="form mx-auto mt-5 py-4 px-3 rounded">
         <div class="row mb-2">
           <h1 class="fs-2 fw-bold text-center">CONTACT FORM</h1>
         </div>

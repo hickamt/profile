@@ -1,16 +1,12 @@
-/* The class names and style below were added to help you get started with the styling the pages.
-If you would prefer, you can delete them and use your own classes and style defintions. */
-
-span.introduction {
-  /* text-align: center; */
-}
-
 article {
-  background-color: #222222;
+  background-color: var(--text-background);
+  /* margin-top: 1em; */
+  opacity: 90%;
+  /* border-radius: 0.5em; */
 }
 
 img.profile-image {
-  border-radius: 50%;
+  /* border-radius: 0.5em; */
   width: 300px;
   height: 300px;
 }
@@ -28,13 +24,22 @@ p.introduction::first-line {
 }
 
 @media (min-width: 680px) {
-  main {
+  div.profile-body {
     margin: 3em 10em 0 10em;
+    padding: 1em;
+  }
+
+  article {
+    margin: 1em 4em;
   }
 }
 
-@media (min-width: 400px) and (max-width: 679px) {
-  main {
-    margin: 3em 3em 0 3em;
+@media (min-width: 400px) and (max-width: 679.98px) {
+  div.profile-body {
+    margin: 3em 2em 0 2em;
+    padding: 1em;
+  }
+  article {
+    margin: 1em 1em;
   }
 }
