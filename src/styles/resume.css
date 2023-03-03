@@ -5,15 +5,13 @@ div.resume {
 }
 
 @media (min-width: 680px) {
-  div.resume {
-    max-height: 43em;
-    max-width: 75%;
-    margin-top: 3em;
+  .iframe-resume {
+   max-width: 90%; 
+
   }
 }
 
 @media (max-width: 679.98px) {
-  div.resume {
-    margin-bottom: 0;
+  .iframe-resume {
   }
 }

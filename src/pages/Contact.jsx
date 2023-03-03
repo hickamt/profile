@@ -6,84 +6,84 @@ const testArray = [];
 const Contact = () => {
   return (
     <>
-      <form id="form" class="form mx-auto mt-5 py-4 px-3 rounded">
-        <div class="row mb-2">
-          <h1 class="fs-2 fw-bold text-center">CONTACT FORM</h1>
+      <form id="form" className="form mx-auto mt-5 py-4 px-3 rounded">
+        <div className="row mb-2">
+          <h1 className="fs-2 fw-bold text-center">CONTACT FORM</h1>
         </div>
-        <div class="row mb-3 mt-3">
-          <label for="text" class="col-sm-4 col-form-label">
-            First:
+        <div className="row mb-3 mt-3">
+          <label for="text" className="col-sm-2 col-form-label">
+            {/* First: */}
           </label>
-          <div class="col-sm-8">
-            <input type="text" class="form-control" id="text" />
+          <div className="col-sm-8">
+            <input placeholder="First name" type="text" className="form-control" id="text" />
           </div>
         </div>
-        <div class="row mb-3 mt-3">
-          <label for="text" class="col-sm-4 col-form-label">
-            Last:
+        <div className="row mb-3 mt-3">
+          <label for="text" className="col-sm-2 col-form-label">
+            {/* Last: */}
           </label>
-          <div class="col-sm-8">
-            <input type="text" class="form-control" id="text" />
+          <div className="col-sm-8">
+            <input placeholder="Last name" type="text" className="form-control" id="text" />
           </div>
         </div>
-        <div class="row mb-3">
-          <label for="email" class="col-sm-4 col-form-label">
-            Email:
+        <div className="row mb-3">
+          <label for="email" className="col-sm-2 col-form-label">
+            {/* Email: */}
           </label>
-          <div class="col-sm-8">
-            <input type="email" class="form-control" id="email" />
+          <div className="col-sm-8">
+            <input placeholder="Email" type="email" className="form-control" id="email" />
           </div>
         </div>
-        <fieldset class="row mb-3">
-          <legend class="col-form-label pt-0">
+        <fieldset className="row mb-3 justify-content-center">
+          <legend className="col-form-label pt-0 text-center">
             Get alerts on my future projects?
           </legend>
-          <div class="col-sm-10">
-            <div class="form-check">
+          <div className="col-sm-5">
+            <div className="form-check">
               <input
-                class="form-check-input"
+                className="form-check-input"
                 type="radio"
                 name="gridRadios"
                 id="gridRadios1"
                 value="yes"
               />
-              <label class="form-check-label" for="gridRadios1">
+              <label className="form-check-label" for="gridRadios1">
                 Yes, sign me up
               </label>
             </div>
-            <div class="form-check">
+            <div className="form-check">
               <input
-                class="form-check-input"
+                className="form-check-input"
                 type="radio"
                 name="gridRadios"
                 id="gridRadios2"
                 value="no"
               />
-              <label class="form-check-label" for="gridRadios2">
+              <label className="form-check-label" for="gridRadios2">
                 No, thank you
               </label>
             </div>
           </div>
         </fieldset>
-        <div class="row mb-3">
-          <label for="date" class="col-sm-4 col-form-label">
-            Date:
+        <div className="row mb-3">
+          <label for="date" className="col-sm-2 col-form-label">
+            {/* Date: */}
           </label>
-          <div class="col-sm-8">
-            <input type="date" class="form-control" id="date" />
+          <div className="col-sm-8">
+            <input type="date" className="form-control" id="date" />
           </div>
         </div>
-        <div class="d-flex gap-1 justify-content-center py-2">
+        <div className="d-flex gap-1 justify-content-center py-2">
           <button
             id="submit"
             type="submit"
-            class="btn w-25 btn-primary btn-block">
+            className="btn w-25 btn-success btn-block">
             Submit
           </button>
           <button
             id="reset"
             type="reset"
-            class="btn w-25 btn-secondary btn-block">
+            className="btn w-25 btn-secondary btn-block">
             Reset
           </button>
         </div>

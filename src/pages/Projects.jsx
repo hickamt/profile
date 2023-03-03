@@ -6,13 +6,13 @@ const Projects = () => {
         <div className="row mx-auto">
           {/* Card One */}
           <div className="col-lg-4 col-md-4 col-sm-12">
-            <div className="card bg-secondary">
+            <div className="card bg-dark">
               <img
                 src="white_folder_green_psu.png"
                 alt=""
                 className="card-img-top"
               />
-              <div className="card-body bg-white text-dark">
+              <div className="card-body bg-white text-dark text-center">
                 <h2 className="card-title fs-3 text-center">Project 1</h2>
                 <p className="card-text">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -24,13 +24,13 @@ const Projects = () => {
 
           {/* Card Two */}
           <div className="col-lg-4 col-md-4 col-sm-12">
-            <div className="card bg-secondary">
+            <div className="card bg-dark">
               <img
                 src="white_folder_green_psu.png"
                 alt=""
                 className="card-img-top"
               />
-              <div className="card-body bg-white text-dark">
+              <div className="card-body bg-white text-dark text-center">
                 <h2 className="card-title fs-3 text-center">Project 2</h2>
                 <p className="card-text">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -42,13 +42,13 @@ const Projects = () => {
 
           {/* Card Three */}
           <div className="col-lg-4 col-md-4 col-sm-12">
-            <div className="card bg-secondary">
+            <div className="card bg-dark">
               <img
                 src="white_folder_green_psu.png"
                 alt=""
                 className="card-img-top"
               />
-              <div className="card-body bg-white text-dark">
+              <div className="card-body bg-white text-dark text-center">
                 <h2 className="card-title fs-3 text-center">Project 3</h2>
                 <p className="card-text">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.

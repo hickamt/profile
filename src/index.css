@@ -1,6 +1,8 @@
 * {
   box-sizing: border-box;
 }
+/* No Display on Scroll Bar */
+/* ::-webkit-scrollbar {display: none;} */
 
 :root {
   --background: #242424;
@@ -20,7 +22,7 @@ body {
   color: var(--text);
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   min-height: 46em;
-  
+  overflow-y:hidden;
 }
 
 .navbar {
