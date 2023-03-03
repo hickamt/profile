@@ -16,14 +16,21 @@ body {
   padding: 0;
   margin-bottom: 3em;
   background: var(--background);
-  /* background-image: url("dark_theme_wallpaper.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--text);
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
-  min-height: 46em;
-  overflow-y:hidden;
 }
+
+/* body > .resume {
+  overflow-y: hidden;
+}
+
+@media (max-width: 679.98px) {
+  body {
+  }
+} */
+
 
 .navbar {
   z-index: 2;
