@@ -1,7 +1,7 @@
 const Projects = () => {
   return (
     <>
-      <h1 className="text-center mt-3">Projects Page</h1>
+      <h1 className="text-center mt-3">Projects</h1>
       <div className="container">
         <div className="row mx-auto">
           {/* Card One */}
@@ -13,11 +13,17 @@ const Projects = () => {
                 className="card-img-top"
               />
               <div className="card-body bg-white text-dark text-center">
-                <h2 className="card-title fs-3 text-center">Project 1</h2>
+                <h2 className="card-title fs-3 text-center">HTTP Only</h2>
                 <p className="card-text">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Ongoing project template with ReactJS & ExpressJS using HTTP
+                  Only Cookie
                 </p>
-                <button className="btn btn-secondary">Link</button>
+                <a
+                  href="https://github.com/hickamt/HTTP_Only_App_Template"
+                  target="_blank"
+                  className="project1 application">
+                  <button className="btn btn-secondary">App</button>
+                </a>
               </div>
             </div>
           </div>
@@ -31,11 +37,17 @@ const Projects = () => {
                 className="card-img-top"
               />
               <div className="card-body bg-white text-dark text-center">
-                <h2 className="card-title fs-3 text-center">Project 2</h2>
+                <h2 className="card-title fs-3 text-center">PSU Shell</h2>
                 <p className="card-text">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Custom shell exhibiting redirects, piping, and other standard
+                  exec() commands.
                 </p>
-                <button className="btn btn-secondary">Link</button>
+                <a
+                  href="https://github.com/hickamt/PSU-Shell"
+                  target="_blank"
+                  className="project2 shell">
+                  <button className="btn btn-secondary">Shell</button>
+                </a>
               </div>
             </div>
           </div>
