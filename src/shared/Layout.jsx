@@ -2,6 +2,7 @@ import { Outlet, Link } from "react-router-dom";
 
 // Bootstrap Nav Docs: https://getbootstrap.com/docs/5.0/components/navbar/
 const Layout = () => {
+
   return (
     <>
       <nav className="navbar sticky-top navbar-expand-md navbar-light bg-light">
