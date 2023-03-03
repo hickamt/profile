@@ -8,7 +8,7 @@ const Layout = () => {
       <nav className="navbar sticky-top navbar-expand-md navbar-light bg-light">
         <div className="container-fluid">
           <Link className="nav-link" to="/">
-            <img src="psu.svg" alt="PSU Logo Home" width="40" height="40" />
+            <img src="initials.png" alt="Initials T H" width="40" height="40" />
           </Link>
           <button
             className="navbar-toggler"
