@@ -10,16 +10,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-markdown": "^8.0.5",
-    "react-router-dom": "^6.8.2"
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-markdown": "8.0.5",
+    "react-router-dom": "6.8.2",
+    "styled-components": "5.3.8"
   },
   "devDependencies": {
-    "@types/react": "^18.0.27",
-    "@types/react-dom": "^18.0.10",
-    "@vitejs/plugin-react": "^3.1.0",
-    "vite": "^4.1.0"
+    "@types/react": "18.0.27",
+    "@types/react-dom": "18.0.10",
+    "@vitejs/plugin-react": "3.1.0",
+    "vite": "4.1.0"
   },
   "description": "[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/hickamt/hickamt.github.io/)",
   "main": "vite.config.js",
