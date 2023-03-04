@@ -16,13 +16,14 @@ import "./styles/home.css";
 import "./styles/no-match.css";
 import "./styles/projects.css";
 import "./styles/resume.css";
+import { ImgHome } from "./pages/ImgHome/Home";
 
 function App() {
   return (
     <>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
+          <Route index element={<ImgHome />} />
           <Route path="projects" element={<Projects />} />
           <Route path="resume" element={<Resume />} />
           <Route path="contact" element={<Contact />} />
