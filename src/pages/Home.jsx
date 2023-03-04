@@ -7,7 +7,7 @@ const Home = () => {
             <img
               className="profile-image rounded-2"
               // src="../../public/img/profile/Todd_Hickam_Mercury.jpg"
-              src="public/img/profile/Todd_Hickam_Zeke.jpg"
+              src="img/profile/Todd_Hickam_Zeke.jpg"
               alt="headshot of Todd Hickam width 300 by height of 300"
             />
           </div>
