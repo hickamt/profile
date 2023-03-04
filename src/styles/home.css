@@ -1,11 +1,11 @@
 div.profile-body {
   background-color: var(--text-background);
-  opacity: 85%;
+  opacity: 90%;
 }
 
 img.profile-image {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
 }
 
 p.introduction::first-line {
@@ -15,18 +15,18 @@ p.introduction::first-line {
 
 @media (min-width: 680px) {
   div.profile-body {
-    max-width: 75%;
-    padding: 1em 0 1em 10em;
-    margin-top: 2em;
+    max-width: 40%;
+    /* padding: 1em 0 1em 10em; */
+    /* margin-top: 2em; */
   }
-  p.introduction-body {
-    max-width: 85%;
+  div.profile-image {
+    margin-right: 8em;
   }
 }
 
 @media (max-width: 679.98px) {
   div.profile-body {
-    text-align: center;
-    padding: 1em;
+    /* text-align: center; */
+    /* padding: 1em; */
   }
 }
