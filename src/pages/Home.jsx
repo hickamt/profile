@@ -1,4 +1,4 @@
-import profileIMG from "../assets/img/Todd_Hickam_Zeke.jpg";
+import { profileIMG } from "../assets/img/Todd_Hickam_Zeke.jpg";
 
 const Home = () => {
   return (
