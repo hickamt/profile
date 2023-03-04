@@ -6,7 +6,8 @@ const Home = () => {
           <div className="col-lg-4 col-sm-12 profile-image">
             <img
               className="profile-image rounded-2"
-              src="../../public/img/profile/Todd_Hickam_Mercury.jpg"
+              // src="../../public/img/profile/Todd_Hickam_Mercury.jpg"
+              src="public/img/profile/Todd_Hickam_Zeke.jpg"
               alt="headshot of Todd Hickam width 300 by height of 300"
             />
           </div>
