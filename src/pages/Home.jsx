@@ -1,4 +1,4 @@
-import { profileIMG } from "../assets/img/Todd_Hickam_Zeke.jpg";
+// import { profileIMG } from "../assets/img/Todd_Hickam_Zeke.jpg";
 
 const Home = () => {
   return (
@@ -8,7 +8,7 @@ const Home = () => {
           <div className="col-lg-4 col-sm-12 profile-image">
             <img
               className="profile-image rounded-2"
-              src={profileIMG}
+              src=""
               alt="headshot of Todd Hickam width 300 by height of 300"
             />
           </div>

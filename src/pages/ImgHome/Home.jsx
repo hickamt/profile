@@ -1,6 +1,6 @@
-import thickam from './thickam.jpg'
-import {useState} from 'react'
-import styled from 'styled-components'
+import thickam from "./thickam.jpg";
+import { useState } from "react";
+import styled from "styled-components";
 
 const MediaQueryBasedWrapper = styled.div`
   background-color: pink;
@@ -12,9 +12,13 @@ const MediaQueryBasedWrapper = styled.div`
   }
 `;
 
+const { test, test2 } = {
+  test: 1,
+  test2: 2,
+};
 
 export const ImgHome = () => {
-  const [isOpen, setOpen] = useState(false)
+  const [isOpen, setOpen] = useState(false);
   return (
     <>
       <div className="container-md rounded-2 profile-body mt-4">
