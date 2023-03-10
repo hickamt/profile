@@ -6,7 +6,7 @@ import Layout from "./shared/Layout";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
-import NoMatch from "./pages/NotFound/NoMatch";
+import NoMatch from "./pages/NotFound404/NoMatch";
 
 // Page Styles
 import "./App.css";
@@ -15,7 +15,7 @@ import "./styles/home.css";
 import "./styles/no-match.css";
 import "./styles/projects.css";
 import "./styles/resume.css";
-import { ImgHome } from "./pages/ImgHome/Home";
+import { ImgHome } from "./pages/Home/Home";
 
 function App() {
   return (

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Outlet, Link } from "react-router-dom";
 
-// Bootstrap Nav Docs: https://getbootstrap.com/docs/5.0/components/navbar/
+// Bootstrap 5 Nav Docs: https://getbootstrap.com/docs/5.0/components/navbar/
 const Layout = () => {
   return (
     <>
