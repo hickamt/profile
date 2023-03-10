@@ -1,10 +1,12 @@
+import NotFound404 from "./peugeot-404.png";
+
 const NoMatch = () => {
   return (
     <>
       <h1 className="page-not-found text-center mt-3">404 Found It!</h1>
       <img
         className="img-404 img-fluid"
-        src="peugeot-404.png"
+        src={NotFound404}
         alt="404 Page Not Found"></img>
     </>
   );
