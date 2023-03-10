@@ -12,11 +12,6 @@ const MediaQueryBasedWrapper = styled.div`
   }
 `;
 
-const { test, test2 } = {
-  test: 1,
-  test2: 2,
-};
-
 export const ImgHome = () => {
   const [isOpen, setOpen] = useState(false);
   return (
