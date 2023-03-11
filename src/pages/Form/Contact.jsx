@@ -2,7 +2,6 @@ import React from "react";
 
 const testArray = [];
 
-
 const Contact = () => {
   return (
     <>
@@ -10,29 +9,44 @@ const Contact = () => {
         <div className="row mb-2">
           <h1 className="fs-2 fw-bold text-center">CONTACT FORM</h1>
         </div>
-        <div className="row mb-3 mt-3">
-          <label for="text" className="col-sm-2 col-form-label">
-            {/* First: */}
-          </label>
+        <div className="row mb-3 mt-3 justify-content-center">
           <div className="col-sm-8">
-            <input placeholder="First name" type="text" className="form-control" id="text" />
+            <input
+              placeholder="First name"
+              type="text"
+              className="form-control"
+              id="text_first"
+            />
           </div>
+          <label for="text_first" hidden>
+            First Name
+          </label>
         </div>
-        <div className="row mb-3 mt-3">
-          <label for="text" className="col-sm-2 col-form-label">
-            {/* Last: */}
-          </label>
+        <div className="row mb-3 mt-3 justify-content-center">
           <div className="col-sm-8">
-            <input placeholder="Last name" type="text" className="form-control" id="text" />
+            <input
+              placeholder="Last name"
+              type="text"
+              className="form-control"
+              id="text_last"
+            />
           </div>
+          <label for="text_last" hidden>
+            Last Name
+          </label>
         </div>
-        <div className="row mb-3">
-          <label for="email" className="col-sm-2 col-form-label">
-            {/* Email: */}
-          </label>
+        <div className="row mb-3 justify-content-center">
           <div className="col-sm-8">
-            <input placeholder="Email" type="email" className="form-control" id="email" />
+            <input
+              placeholder="Email"
+              type="email"
+              className="form-control"
+              id="email"
+            />
           </div>
+          <label for="email" hidden>
+            Email
+          </label>
         </div>
         <fieldset className="row mb-3 justify-content-center">
           <legend className="col-form-label pt-0 text-center">
@@ -65,9 +79,9 @@ const Contact = () => {
             </div>
           </div>
         </fieldset>
-        <div className="row mb-3">
-          <label for="date" className="col-sm-2 col-form-label">
-            {/* Date: */}
+        <div className="row mb-3 justify-content-center">
+          <label for="date" className="col-sm-2 col-form-label" hidden>
+            Date
           </label>
           <div className="col-sm-8">
             <input type="date" className="form-control" id="date" />
@@ -77,7 +91,7 @@ const Contact = () => {
           <button
             id="submit"
             type="submit"
-            className="btn w-25 btn-success btn-block">
+            className="btn w-25 btn-info btn-block">
             Submit
           </button>
           <button
