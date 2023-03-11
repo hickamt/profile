@@ -9,7 +9,7 @@ const ResumeWideScreen = () => {
         className="iframe-resume"
         src={pdfView}
         height="725px"
-        frameborder="0"></iframe>
+        frameBorder="0"></iframe>
     </div>
   );
 };

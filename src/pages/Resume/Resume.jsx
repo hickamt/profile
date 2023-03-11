@@ -20,9 +20,11 @@ const Resume = () => {
       window.removeEventListener("resize", handleWindowResize);
     };
   });
+
   return (
     <>
       <div className="resume d-col justify-content-center">
+        <h1 className="resume-heading text-center" hidden>Resume</h1>
         {windowSize[0] < 760 ? <ResumeMobile /> : <ResumeWideScreen />}
       </div>
     </>
