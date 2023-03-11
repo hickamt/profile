@@ -1,8 +1,14 @@
+// Project Notes
+/* 
+ Implemented mapping across cards and formatting broke for row.
+ I had no idea if it was my implementation, an issue with mapping and bootstrap, or
+ if I had deleted a required div.className.
+ Resolution: reviewed GitHub revision history and saw that one of the divs had to be
+ mapped inside and was placed outside
+*/
+
 import styled from "styled-components";
-import { projects } from "./data/ProjectData";
-// import folderImage from "./white_folder.png";
-// import github from "./github.png";
-// import stackblitz from "./stackblitz.png";
+import CardBody from "./component/CardBody";
 
 const ProjectStyles = styled.div`
   margin-top: 4em;
@@ -36,11 +42,6 @@ const ProjectStyles = styled.div`
   }
 `;
 
-// implemented mapping across cards and formatting broke for row.
-// I had no idea if it was my implementation, an issue with mapping and bootstrap, or
-// if I had deleted a required div.className.
-// Resolution: reviewed GitHub revision history and saw that one of the divs had to be
-// mapped inside and was placed outside
 const Projects = () => {
   return (
     <>
@@ -50,31 +51,7 @@ const Projects = () => {
         </h1>
         <div className="container">
           <div className="row mx-auto">
-            {projects.map((project) => {
-              return (
-                <div className="col-md-4 col-sm-12">
-                  <div key={project.id} className="card bg-dark">
-                    <img src={project.cardSrc} alt="" className="card-img-top" />
-                    <div className="card-body bg-white text-dark text-center">
-                      <h2 className="card-title fs-3 text-center">
-                        {project.title}
-                      </h2>
-                      <p className="card-text">{project.description}</p>
-                      <a
-                        href="https://stackblitz.com/github/hickamt/HTTP_Only_App_Template"
-                        target="_blank"
-                        className="project1">
-                        <img
-                          className="custom-button"
-                          src={project.buttonSrc}
-                          alt="image of stackblitz button"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              );
-            })}
+            <CardBody />
           </div>
         </div>
       </ProjectStyles>
