@@ -23,7 +23,7 @@ const Resume = () => {
 
   return (
     <>
-      <div className="resume d-col justify-content-center">
+      <div className="resume d-col justify-content-center my-0">
         <h1 className="resume-heading text-center" hidden>Resume</h1>
         {windowSize[0] < 800 ? <ResumeMobile /> : <ResumeWideScreen />}
       </div>

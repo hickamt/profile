@@ -1,4 +1,6 @@
+import React from "react";
 import styled from "styled-components";
+import ResumePDF from "./Todd_Hickam_Resume_2023.pdf";
 
 const MobileStyledView = styled.div`
   background-color: var(--background);
@@ -6,23 +8,40 @@ const MobileStyledView = styled.div`
 `;
 
 const ResumeMobile = () => {
+  const downloadPDF = () => {
+    fetch(ResumePDF)
+    .then((response) => {
+      response.blob()
+      .then((blob) => {
+        const pdfFILE = window.URL.createObjectURL(blob);
+        let alink = document.createElement("a");
+        alink.href = pdfFILE;
+        alink.download = "./Todd_Hickam_Resume_2023.pdf";
+        alink.click();
+      });
+    });
+  };
+
   return (
     <>
       <MobileStyledView>
         {/* Heading */}
-        <p className="text-center mb-0">Todd J. Hickam</p>
-        <p className="text-center mb-0">1622 S Dogwood St.</p>
-        <p className="text-center mb-0">Cornelius, OR 97113</p>
-        <p className="text-center mb-0">
-          (503) 593-1094 or{" "}
-          <a className="text-light" href="mailto:Hickam.T@Outlook.Com">
-            Hickam.T@Outlook.Com
-          </a>
-        </p>
+        <div className="contact-details text-center">
+          <p className="mb-0">Todd J. Hickam</p>
+          <p className="mb-0">1622 S Dogwood St.</p>
+          <p className="mb-0">Cornelius, OR 97113</p>
+          <p className="mb-3">
+            (503) 593-1094 or{" "}
+            <a className="text-light" href="mailto:Hickam.T@Outlook.Com">
+              Hickam.T@Outlook.Com
+            </a>
+          </p>
+          <a className="btn btn-secondary" onClick={downloadPDF}>Resume</a>
+        </div>
         <hr />
         {/* Objective */}
         <h2 className="objective my-2 fs-4">Objective</h2>
-        <p className="objective-statement">
+        <p className="objective-statement ms-4">
           Obtain front-end web development internship
         </p>
         <hr />
