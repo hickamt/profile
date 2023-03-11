@@ -1,4 +1,4 @@
-import { useState } from "react";
+// import { useState } from "react";
 import { Outlet, Link } from "react-router-dom";
 
 // Bootstrap 5 Nav Docs: https://getbootstrap.com/docs/5.0/components/navbar/
@@ -24,7 +24,7 @@ const Layout = () => {
           <div className="navbar-collapse collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item active">
-                <Link className="nav-link active" to="/projects" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <Link className="nav-link active" to="/projects">
                   Projects
                 </Link>
               </li>
@@ -42,16 +42,7 @@ const Layout = () => {
           </div>
         </div>
       </nav>
-
-      {/* <div
-        className="navbar-toggler"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav">
         <Outlet />
-      </div> */}
-      <div data-bs-toggle="collapse" data-bs-target="#navbarnav">
-        <Outlet />
-      </div>
 
       {/* Footer */}
       {/* <footer className="footer py-3 bg-light font-dark fixed-bottom">

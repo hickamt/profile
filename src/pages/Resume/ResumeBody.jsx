@@ -1,13 +1,5 @@
 import React from "react";
 import ResumePDF from "./Todd_Hickam_Resume_2023.pdf";
-import styled from "styled-components";
-const reactIMG = "./react_router.ico";
-
-const ImageList = styled.div`
-li.reactjs::before {
-  
-}`
-
 
 const ResumeBody = () => {
   const downloadPDF = () => {
@@ -150,10 +142,10 @@ const ResumeBody = () => {
         <p className="skills mb-1">
           Frameworks / Libraries:
           <ul className="frameworks">
-            <li className="reactjs">ReactJS</li>
-            <li className="nodejs">NodeJS</li>
-            <li className="expressjs">ExpressJS</li>
-            <li className="bootstrap">Bootstrap</li>
+            <li>ReactJS</li>
+            <li>NodeJS</li>
+            <li>ExpressJS</li>
+            <li>Bootstrap</li>
           </ul>
         </p>
         <p className="skills mb-1">

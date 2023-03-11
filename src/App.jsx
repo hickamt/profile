@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 
 // JSX Pages
 import Layout from "./shared/Layout";
-import Projects from "./pages/ProjectCards/Projects";
+import Projects from "./pages/Projects/Projects";
 import Resume from "./pages/Resume/Resume";
 import Contact from "./pages/Form/Contact";
 import NoMatch from "./pages/NoMatch404/NoMatch";
@@ -15,7 +15,6 @@ import "./styles/contact.css";
 import "./styles/home.css";
 import "./styles/no-match.css";
 import "./styles/projects.css";
-import "./styles/resume.css";
 
 function App() {
   return (
