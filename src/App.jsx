@@ -6,7 +6,8 @@ import Layout from "./shared/Layout";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
-import NoMatch from "./pages/NotFound404/NoMatch";
+import NoMatch from "./pages/NoMatch404/NoMatch";
+import Home from "./pages/Home/Home";
 
 // Page Styles
 import "./App.css";
@@ -15,14 +16,13 @@ import "./styles/home.css";
 import "./styles/no-match.css";
 import "./styles/projects.css";
 import "./styles/resume.css";
-import { ImgHome } from "./pages/Home/Home";
 
 function App() {
   return (
     <>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<ImgHome />} />
+          <Route index element={<Home />} />
           <Route path="projects" element={<Projects />} />
           <Route path="resume" element={<Resume />} />
           <Route path="contact" element={<Contact />} />

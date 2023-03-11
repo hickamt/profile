@@ -12,7 +12,7 @@ const MediaQueryBasedWrapper = styled.div`
   }
 `;
 
-export const ImgHome = () => {
+const Home = () => {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
@@ -52,3 +52,5 @@ export const ImgHome = () => {
     </>
   );
 };
+
+export default Home;
