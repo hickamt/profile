@@ -1,11 +1,11 @@
 import React from "react";
-import ResumeBody from "./ResumeBody";
 import styled from "styled-components";
+import ResumeBody from "./ResumeBody";
 
 const ResumeStyle = styled.div`
   margin: auto;
   background-color: var(--background);
-  padding: 0.5em;
+  padding: 1em;
   opacity: 90%;
 
   @media (min-width: 680px) {
