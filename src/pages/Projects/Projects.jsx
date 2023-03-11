@@ -1,21 +1,32 @@
 import styled from "styled-components";
+import psuImage from "./white_folder_green_psu.png";
 
 const ProjectStyles = styled.div`
+  margin-top: 4em;
+
   .card {
     border-radius: 0.5em;
-    margin: 1em 0;
+    // margin: 1em 0;
     opacity: 90%;
   }
   .card-body {
     opacity: none;
+    min-height: 200px;
+  }
+
+  img.card-img-top {
+    max-height: 346px;
   }
 
   @media (max-width: 748px) {
+    margin-top: 0;
     .card {
       margin: 1em 2em;
     }
   }
 `;
+
+
 const Projects = () => {
   return (
     <>
@@ -29,12 +40,12 @@ const Projects = () => {
             <div className="col-md-4 col-sm-12">
               <div className="card bg-dark">
                 <img
-                  src="white_folder_green_psu.png"
+                  src={psuImage}
                   alt=""
                   className="card-img-top"
                 />
                 <div className="card-body bg-white text-dark text-center">
-                  <h2 className="card-title fs-3 text-center">HTTP Only</h2>
+                  <h2 className="card-title fs-3 text-center">HttpOnly</h2>
                   <p className="card-text">
                     Ongoing project template with ReactJS & ExpressJS using HTTP
                     Only Cookie
@@ -53,7 +64,7 @@ const Projects = () => {
             <div className="col-md-4 col-sm-12">
               <div className="card bg-dark">
                 <img
-                  src="white_folder_green_psu.png"
+                  src={psuImage}
                   alt=""
                   className="card-img-top"
                 />
@@ -77,14 +88,15 @@ const Projects = () => {
             <div className="col-md-4 col-sm-12">
               <div className="card bg-dark">
                 <img
-                  src="white_folder_green_psu.png"
+                  src={psuImage}
                   alt=""
                   className="card-img-top"
                 />
                 <div className="card-body bg-white text-dark text-center">
-                  <h2 className="card-title fs-3 text-center">Project 3</h2>
+                  <h2 className="card-title fs-3 text-center">Pthreads</h2>
                   <p className="card-text">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Find all primes to one-billion using 
+                    multi-thread and mutex process
                   </p>
                   <button className="btn btn-secondary">Link</button>
                 </div>
