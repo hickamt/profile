@@ -1,32 +1,29 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import ResumeBody from "./ResumeBody";
+import styled from "styled-components";
 
-import ResumeMobile from "./Views/ResumeMobile";
-import ResumeWideScreen from "./Views/ResumeWideScreen";
+const ResumeStyle = styled.div`
+  margin: auto;
+  background-color: var(--background);
+  padding: 0.5em;
+  opacity: 90%;
+
+  @media (min-width: 680px) {
+    max-width: 75rem;
+  }
+`;
 
 const Resume = () => {
-  const [windowSize, setWindowSize] = useState([
-    window.innerWidth,
-    window.innerHeight,
-  ]);
-
-  useEffect(() => {
-    const handleWindowResize = () => {
-      setWindowSize([window.innerWidth, window.innerHeight]);
-    };
-    window.addEventListener("resize", handleWindowResize);
-
-    return () => {
-      window.removeEventListener("resize", handleWindowResize);
-    };
-  });
-
   return (
     <>
-      <div className="resume d-col justify-content-center my-0">
-        <h1 className="resume-heading text-center" hidden>Resume</h1>
-        {windowSize[0] < 800 ? <ResumeMobile /> : <ResumeWideScreen />}
-      </div>
+      <ResumeStyle>
+        <div className="resume d-col justify-content-center my-0">
+          <h1 className="resume-heading text-center" hidden>
+            Resume
+          </h1>
+          <ResumeBody />
+        </div>
+      </ResumeStyle>
     </>
   );
 };
