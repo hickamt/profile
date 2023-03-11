@@ -14,7 +14,6 @@ import "./App.css";
 import "./styles/contact.css";
 import "./styles/home.css";
 import "./styles/no-match.css";
-import "./styles/projects.css";
 
 function App() {
   return (
