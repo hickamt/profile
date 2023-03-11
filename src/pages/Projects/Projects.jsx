@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import folderImage from "./white_folder.png";
-// import folderImage from "./white_folder_green_psu.png";
 import github from "./github.png";
 import stackblitz from "./stackblitz.png";
 
@@ -30,9 +29,9 @@ const ProjectStyles = styled.div`
     .card {
       margin: 1em 2em;
     }
-  .card-body {
-    min-height: 190px;
-  }
+    .card-body {
+      min-height: 190px;
+    }
   }
 `;
 
