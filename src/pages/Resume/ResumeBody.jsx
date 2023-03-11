@@ -27,7 +27,7 @@ const ResumeBody = () => {
             Hickam.T@Outlook.Com
           </a>
         </p>
-        <a className="btn btn-secondary" onClick={downloadPDF}>
+        <a className="btn btn-info" onClick={downloadPDF}>
           Resume
         </a>
       </div>
