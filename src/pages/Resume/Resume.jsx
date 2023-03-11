@@ -1,5 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
+
+import ResumeMobile from "./Views/ResumeMobile";
 import ResumePDF from "./Todd_Hickam_Resume_2023.pdf";
 const pdfView = `${ResumePDF}#view=fitH`;
 
@@ -16,18 +18,18 @@ const ResumeIFrame = () => {
   );
 };
 
-const ResumeMobile = () => {
-  return (
-    <div className="row justify-content-evenly">
-      <h1 className="resume-heading text-center">Resume Mobile</h1>
-      <iframe
-        className="iframe-resume"
-        src={pdfView}
-        height="725px"
-        frameborder="0"></iframe>
-    </div>
-  );
-};
+// const ResumeMobile = () => {
+//   return (
+//     <div className="row justify-content-evenly">
+//       <h1 className="resume-heading text-center">Resume Mobile</h1>
+//       <iframe
+//         className="iframe-resume"
+//         src={pdfView}
+//         height="725px"
+//         frameborder="0"></iframe>
+//     </div>
+//   );
+// };
 
 const Resume = () => {
   const [windowSize, setWindowSize] = useState([
