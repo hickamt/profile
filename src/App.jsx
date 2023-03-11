@@ -3,9 +3,9 @@ import { Routes, Route } from "react-router-dom";
 
 // JSX Pages
 import Layout from "./shared/Layout";
-import Projects from "./pages/Projects";
-import Resume from "./pages/Resume";
-import Contact from "./pages/Contact";
+import Projects from "./pages/ProjectCards/Projects";
+import Resume from "./pages/Resume/Resume";
+import Contact from "./pages/Form/Contact";
 import NoMatch from "./pages/NoMatch404/NoMatch";
 import Home from "./pages/Home/Home";
 
