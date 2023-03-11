@@ -9,7 +9,7 @@ const ResumeStyle = styled.div`
   opacity: 90%;
 
   @media (min-width: 680px) {
-    max-width: 75rem;
+    max-width: 65rem;
   }
 `;
 

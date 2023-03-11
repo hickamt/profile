@@ -1,5 +1,13 @@
 import React from "react";
 import ResumePDF from "./Todd_Hickam_Resume_2023.pdf";
+import styled from "styled-components";
+const reactIMG = "./react_router.ico";
+
+const ImageList = styled.div`
+li.reactjs::before {
+  
+}`
+
 
 const ResumeBody = () => {
   const downloadPDF = () => {
@@ -42,12 +50,12 @@ const ResumeBody = () => {
       <h2 className="education my-2 fs-4">Education</h2>
       <ul className="education">
         <li className="psu">
-          Portland State University (PSU) 2024
-          <p>Candidate for B.S. Computer Science</p>
+          Portland State University&emsp;&emsp;&ensp; (PSU) 2024
+          <p className="ms-2">Candidate for B.S. Computer Science</p>
         </li>
         <li className="pcc">
-          Portland Community College (PCC) 2020
-          <p>A.S. Oregon Transfer Business</p>
+          Portland Community College&emsp;(PCC) 2020
+          <p className="ms-2">A.S. Oregon Transfer Business</p>
         </li>
       </ul>
       <hr />
@@ -63,8 +71,8 @@ const ResumeBody = () => {
             management, and profitability
           </li>
           <li className="all-car-care">
-            Consulted the owner on areas of service efficiency, employee
-            management, and profitability
+            Increased overall profit margin by 33%, utilizing customer sales and
+            vendor re-pricing strategies
           </li>
         </ul>
         {/* Second Position */}
@@ -95,7 +103,7 @@ const ResumeBody = () => {
           </li>
         </ul>
         {/* Fourth Position */}
-        <h3 className="company-three mt-1 fs-5">NW Home Lendinng</h3>
+        <h3 className="company-three mt-1 fs-5">NW Home Lending</h3>
         <p className="position">Owner</p>
         <ul className="description">
           <li className="nw-home-lending">
@@ -119,13 +127,11 @@ const ResumeBody = () => {
       </ul>
       <hr />
       {/* Skills */}
-      <h2 className="skills">Skills</h2>
+      <h2 className="skills fs-4">Skills</h2>
       <div className="skills ms-4">
         <p className="skills mb-1">
-          Over a decade of affective leadership and small buiness operations
-        </p>
-        <p className="skills mb-1">
-          Over a decade of customer service, and prefessional buiness relations
+          Over a decade of effective leadership, small business operations,
+          customer service, and professional business relations
         </p>
         <p className="skills mb-1">
           Extensive technical writing and communications ability
@@ -144,10 +150,10 @@ const ResumeBody = () => {
         <p className="skills mb-1">
           Frameworks / Libraries:
           <ul className="frameworks">
-            <li>ReactJS</li>
-            <li>NodeJS</li>
-            <li>ExpressJS</li>
-            <li>Bootstrap</li>
+            <li className="reactjs">ReactJS</li>
+            <li className="nodejs">NodeJS</li>
+            <li className="expressjs">ExpressJS</li>
+            <li className="bootstrap">Bootstrap</li>
           </ul>
         </p>
         <p className="skills mb-1">
