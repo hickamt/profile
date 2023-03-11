@@ -4,7 +4,6 @@ const pdfView = `${ResumePDF}#view=fitH`;
 const ResumeWideScreen = () => {
   return (
     <div className="row justify-content-evenly">
-      <h1 className="resume-heading text-center">Resume Wide Screen</h1>
       <iframe
         className="iframe-resume"
         src={pdfView}

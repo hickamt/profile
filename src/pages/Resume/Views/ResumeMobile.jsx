@@ -15,21 +15,161 @@ const ResumeMobile = () => {
         <p className="text-center mb-0">Cornelius, OR 97113</p>
         <p className="text-center mb-0">
           (503) 593-1094 or{" "}
-          <a href="mailto:Hickam.T@Outlook.Com">Hickam.T@Outlook.Com</a>
+          <a className="text-light" href="mailto:Hickam.T@Outlook.Com">
+            Hickam.T@Outlook.Com
+          </a>
         </p>
         <hr />
         {/* Objective */}
         <h2 className="objective my-2 fs-4">Objective</h2>
-        <p className="objective-statement">Obtain front-end web development internship</p>
+        <p className="objective-statement">
+          Obtain front-end web development internship
+        </p>
+        <hr />
         {/* Education */}
         <h2 className="education my-2 fs-4">Education</h2>
         <ul className="education">
-          <li className="psu">Portland State University 2024
-          <p>Candidate for B.S. Computer Science</p></li>
-          <li className="pcc">Portland Community College 2020
-          <p>A.S. Oregon Transfer Business</p></li>
+          <li className="psu">
+            Portland State University (PSU) 2024
+            <p>Candidate for B.S. Computer Science</p>
+          </li>
+          <li className="pcc">
+            Portland Community College (PCC) 2020
+            <p>A.S. Oregon Transfer Business</p>
+          </li>
         </ul>
-
+        <hr />
+        {/* Work Experience */}
+        <h2 className="work-experience my-2 fs-4">Work Experience</h2>
+        <ul className="work-experience">
+          {/* First Position */}
+          <h3 className="company-one mt-1 fs-5">All Car Care</h3>
+          <p className="position">Manager</p>
+          <ul className="description">
+            <li className="all-car-care">
+              Consulted the owner on areas of service efficiency, employee
+              management, and profitability
+            </li>
+            <li className="all-car-care">
+              Consulted the owner on areas of service efficiency, employee
+              management, and profitability
+            </li>
+          </ul>
+          {/* Second Position */}
+          <h3 className="company-two mt-1 fs-5">Wells Fargo</h3>
+          <p className="position">Loss Mitigation / Home Preservation</p>
+          <ul className="description">
+            <li className="wells-fargo">
+              Accurately maintained over one-hundred home preservation accounts
+              at various stages of default, requiring strong diligence to detail
+              and organization
+            </li>
+            <li className="wells-fargo">
+              Utilized multiple systems to inform current and new customer
+              inquiries about loan terms, critical dates, and deadlines
+            </li>
+          </ul>
+          {/* Third Position */}
+          <h3 className="company-three mt-1 fs-5">Elite Converter Resource</h3>
+          <p className="position">Owner</p>
+          <ul className="description">
+            <li className="elite-converter-resource">
+              Constructed a system of re-building domestic and foreign catalytic
+              converter vehicle emission components
+            </li>
+            <li className="elite-converter-resource">
+              Developed business to business relationships, and new vendor
+              suppliers in the Oregon, Washington, and florida markets
+            </li>
+          </ul>
+          {/* Fourth Position */}
+          <h3 className="company-three mt-1 fs-5">NW Home Lendinng</h3>
+          <p className="position">Owner</p>
+          <ul className="description">
+            <li className="nw-home-lending">
+              Established professional relationships with real estate
+              developers, sub-prime lenders, real estate agents and brokers,
+              attorneys, appraisers, and loan officers
+            </li>
+            <li className="nw-home-lending">
+              Negotiated short sale foreclosure contracts with various lenders,
+              and negotiated property investments for various clientele
+            </li>
+          </ul>
+        </ul>
+        <hr />
+        {/* Award & Honors */}
+        <h2 className="awards-honors my-2 fs-4">Awards / Honors</h2>
+        <ul>
+          <li className="awards-honors mb-0">Presidents List - PSU</li>
+          <li className="awards-honors mb-0">Presidents List - PCC</li>
+          <li className="awards-honors mb-0">Graduated Highest Honors PCC</li>
+        </ul>
+        <hr />
+        {/* Skills */}
+        <h2 className="skills">Skills</h2>
+        <div className="skills ms-4">
+          <p className="skills mb-1">
+            Over a decade of affective leadership and small buiness operations
+          </p>
+          <p className="skills mb-1">
+            Over a decade of customer service, and prefessional buiness
+            relations
+          </p>
+          <p className="skills mb-1">
+            Extensive technical writing and communications ability
+          </p>
+          <p className="skills mb-1">
+            Computer Languages:
+            <ul className="languages">
+              <li>C/C++</li>
+              <li>JavaScript</li>
+              <li>Typescript</li>
+              <li>Java</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </p>
+          <p className="skills mb-1">
+            Frameworks / Libraries:
+            <ul className="languages">
+              <li>ReactJS</li>
+              <li>NodeJS</li>
+              <li>ExpressJS</li>
+              <li>Bootstrap</li>
+            </ul>
+          </p>
+          <p className="skills mb-1">
+            Editors:
+            <ul className="languages">
+              <li>Visual Studio Code</li>
+              <li>Visual Studio</li>
+              <li>VIM</li>
+            </ul>
+          </p>
+          <p className="skills mb-1">
+            Operating Systems:
+            <ul className="languages">
+              <li>Microsoft Windows</li>
+              <li>Linux/Unix</li>
+            </ul>
+          </p>
+          <p className="skills mb-1">
+            Command Prompt / Shell:
+            <ul className="languages">
+              <li>Terminal</li>
+              <li>PowerShell</li>
+              <li>Command Prompt</li>
+            </ul>
+          </p>
+          <p className="skills mb-1">
+            Software:
+            <ul className="languages">
+              <li>Microsoft Office Suite</li>
+              <li>Adobe</li>
+            </ul>
+          </p>
+        </div>
       </MobileStyledView>
     </>
   );
