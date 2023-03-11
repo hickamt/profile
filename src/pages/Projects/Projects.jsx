@@ -1,21 +1,28 @@
 import styled from "styled-components";
-import psuImage from "./white_folder_green_psu.png";
+import folderImage from "./white_folder.png";
+// import folderImage from "./white_folder_green_psu.png";
+import github from "./github.png";
+import stackblitz from "./stackblitz.png";
 
 const ProjectStyles = styled.div`
   margin-top: 4em;
 
   .card {
     border-radius: 0.5em;
-    // margin: 1em 0;
     opacity: 90%;
   }
   .card-body {
     opacity: none;
-    min-height: 200px;
+    min-height: 220px;
   }
 
   img.card-img-top {
     max-height: 346px;
+  }
+
+  .custom-button {
+    width: auto;
+    height: 3em;
   }
 
   @media (max-width: 748px) {
@@ -23,9 +30,11 @@ const ProjectStyles = styled.div`
     .card {
       margin: 1em 2em;
     }
+  .card-body {
+    min-height: 190px;
+  }
   }
 `;
-
 
 const Projects = () => {
   return (
@@ -39,11 +48,7 @@ const Projects = () => {
             {/* Card One */}
             <div className="col-md-4 col-sm-12">
               <div className="card bg-dark">
-                <img
-                  src={psuImage}
-                  alt=""
-                  className="card-img-top"
-                />
+                <img src={folderImage} alt="" className="card-img-top" />
                 <div className="card-body bg-white text-dark text-center">
                   <h2 className="card-title fs-3 text-center">HttpOnly</h2>
                   <p className="card-text">
@@ -51,10 +56,14 @@ const Projects = () => {
                     Only Cookie
                   </p>
                   <a
-                    href="https://github.com/hickamt/HTTP_Only_App_Template"
+                    href="https://stackblitz.com/github/hickamt/HTTP_Only_App_Template"
                     target="_blank"
-                    className="project1 application">
-                    <button className="btn btn-secondary">App</button>
+                    className="project1">
+                    <img
+                      className="custom-button"
+                      src={stackblitz}
+                      alt="image of stackblitz button"
+                    />
                   </a>
                 </div>
               </div>
@@ -63,11 +72,7 @@ const Projects = () => {
             {/* Card Two */}
             <div className="col-md-4 col-sm-12">
               <div className="card bg-dark">
-                <img
-                  src={psuImage}
-                  alt=""
-                  className="card-img-top"
-                />
+                <img src={folderImage} alt="" className="card-img-top" />
                 <div className="card-body bg-white text-dark text-center">
                   <h2 className="card-title fs-3 text-center">PSU Shell</h2>
                   <p className="card-text">
@@ -78,7 +83,11 @@ const Projects = () => {
                     href="https://github.com/hickamt/PSU-Shell"
                     target="_blank"
                     className="project2 shell">
-                    <button className="btn btn-secondary">Shell</button>
+                    <img
+                      className="custom-button"
+                      src={github}
+                      alt="image of psu logo"
+                    />
                   </a>
                 </div>
               </div>
@@ -87,18 +96,18 @@ const Projects = () => {
             {/* Card Three */}
             <div className="col-md-4 col-sm-12">
               <div className="card bg-dark">
-                <img
-                  src={psuImage}
-                  alt=""
-                  className="card-img-top"
-                />
+                <img src={folderImage} alt="" className="card-img-top" />
                 <div className="card-body bg-white text-dark text-center">
                   <h2 className="card-title fs-3 text-center">Pthreads</h2>
                   <p className="card-text">
-                    Find all primes to one-billion using 
-                    multi-thread and mutex process
+                    Find all primes to one-billion using multi-thread and mutex
+                    process
                   </p>
-                  <button className="btn btn-secondary">Link</button>
+                  <img
+                    className="custom-button"
+                    src={github}
+                    alt="image of psu logo"
+                  />
                 </div>
               </div>
             </div>
