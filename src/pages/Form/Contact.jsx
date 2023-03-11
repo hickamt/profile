@@ -5,7 +5,7 @@ const testArray = [];
 const Contact = () => {
   return (
     <>
-      <form id="form" className="form mx-auto mt-5 py-4 px-3 rounded">
+      <form id="form" className="form bg-dark mx-auto mt-5 py-4 px-3 rounded">
         <div className="row mb-2">
           <h1 className="fs-2 fw-bold text-center">CONTACT FORM</h1>
         </div>

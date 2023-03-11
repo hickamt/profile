@@ -3,8 +3,8 @@ import { projects } from "../data/ProjectData";
 const CardBody = () => {
    const card = projects.map((project) => {
       return (
-        <div className="col-md-4 col-sm-12">
-          <div key={project.id} className="card bg-dark">
+        <div key={project.id} className="col-md-4 col-sm-12">
+          <div className="card bg-dark">
             <img src={project.cardSrc} alt="" className="card-img-top" />
             <div className="card-body bg-white text-dark text-center">
               <h2 className="card-title fs-3 text-center">{project.title}</h2>
