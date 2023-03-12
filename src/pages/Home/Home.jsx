@@ -13,8 +13,7 @@ const ProfileStyle = styled.div`
   }
 
   .card-body {
-    min-height: 220px;
-    // min-width: px;
+    min-height: 350px;
   }
 
   img.card-img-top {
@@ -29,14 +28,11 @@ const ProfileStyle = styled.div`
     height: 3em;
   }
 
-  @media (max-width: 748px) {
+  @media (max-width: 660px) {
     margin-top: 0;
     .card {
       border-radius: 0;
       margin: 0;
-    }
-    .card-body {
-      min-height: 200px;
     }
   }
 `;
@@ -47,34 +43,34 @@ const Home = () => {
       <ProfileStyle>
         <h1 hidden>Todd Hickam Home Page</h1>
         <div className="row justify-content-center text-center">
-          <div className="col-sm-4">
+          <div className="col-md-4 col-sm-6">
             <div className="card bg-dark">
               <img src={thickam} alt="" className="card-img-top mt-4" />
-              <div className="card-body bg-dark text-light text-center">
-                <h2 className="card-title fs-3 text-center">Todd Hickam</h2>
-                <p className="introduction-body text-center">
+              <div className="card-body bg-dark text-light">
+                <h2 className="card-title fs-3">Todd Hickam</h2>
+                <p className="introduction-body">
                   Portland, Oregon Resident
                 </p>
-                <p className="introduction-body text-center">
+                <p className="introduction-body ">
                   Computer Science Undergrad
                 </p>
-                <p className="introduction-body text-center">
+                <p className="introduction-body ">
                   Web Dev Passionate
                 </p>
-                <p className="introduction-body text-center">
+                <p className="introduction-body ">
                   Knowledge Disseminater
                 </p>
-                <p className="introduction-body text-center">
+                <p className="introduction-body ">
                   Photo & Music Hobbyist
                 </p>
                 <a
                   href="https://github.com/hickamt"
                   target="_blank"
-                  className="project1">
+                  className="profile">
                   <img
                     className="custom-button"
                     src={githubIMG}
-                    alt="image of stack blitz button"
+                    alt="image of github button"
                   />
                 </a>
               </div>

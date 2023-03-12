@@ -43,17 +43,21 @@ const ResumeBody = () => {
       <ul className="education">
         <li className="psu">
           Portland State University&emsp;&emsp;&ensp; (PSU) 2024
-          <p className="ms-2">Candidate for B.S. Computer Science</p>
+          <ul className="sub-line">
+            <li className="ms-2">Candidate for B.S. Computer Science</li>
+          </ul>
         </li>
         <li className="pcc">
           Portland Community College&emsp;(PCC) 2020
-          <p className="ms-2">A.S. Oregon Transfer Business</p>
+          <ul className="sub-line">
+            <li className="ms-2">A.S. Oregon Transfer Business</li>
+          </ul>
         </li>
       </ul>
       <hr />
       {/* Work Experience */}
       <h2 className="work-experience my-2 fs-4">Work Experience</h2>
-      <ul className="work-experience">
+      <div className="work-experience ps-2">
         {/* First Position */}
         <h3 className="company-one mt-1 fs-5">All Car Care</h3>
         <p className="position">Manager</p>
@@ -108,7 +112,7 @@ const ResumeBody = () => {
             and negotiated property investments for various clientele
           </li>
         </ul>
-      </ul>
+      </div>
       <hr />
       {/* Award & Honors */}
       <h2 className="awards-honors my-2 fs-4">Awards / Honors</h2>

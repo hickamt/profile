@@ -15,7 +15,7 @@ const Resume = () => {
   return (
     <>
       <ResumeStyle>
-        <div className="resume d-col justify-content-center my-0 px-2 bg-dark">
+        <div className="resume d-col justify-content-center my-0 px-2 py-2 bg-dark">
           <h1 className="resume-heading text-center" hidden>
             Resume
           </h1>
