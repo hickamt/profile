@@ -25,7 +25,7 @@ const ProfileStyle = styled.div`
   .custom-button {
     width: auto;
     height: 3em;
-    margin-top: 1em
+    margin-top: 1em;
   }
 
   @media (max-width: 660px) {
@@ -47,21 +47,11 @@ const Home = () => {
               <img src={thickam} alt="" className="card-img-top" />
               <div className="card-body bg-dark text-light">
                 <h2 className="card-title fs-3">Todd Hickam</h2>
-                <p className="introduction-body">
-                  Portland, Oregon Resident
-                </p>
-                <p className="introduction-body ">
-                  Computer Science Undergrad
-                </p>
-                <p className="introduction-body ">
-                  Web Dev Passionate
-                </p>
-                <p className="introduction-body ">
-                  Knowledge Disseminater
-                </p>
-                <p className="introduction-body ">
-                  Photo & Music Hobbyist
-                </p>
+                <p className="introduction-body">Portland, Oregon Resident</p>
+                <p className="introduction-body ">Computer Science Undergrad</p>
+                <p className="introduction-body ">Web Dev Passionate</p>
+                <p className="introduction-body ">Knowledge Disseminater</p>
+                <p className="introduction-body ">Photo & Music Hobbyist</p>
                 <a
                   href="https://github.com/hickamt"
                   target="_blank"
@@ -69,7 +59,7 @@ const Home = () => {
                   <img
                     className="custom-button"
                     src={githubIMG}
-                    alt="image of github button"
+                    alt="button image of github link"
                   />
                 </a>
               </div>
