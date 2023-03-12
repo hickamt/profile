@@ -8,8 +8,6 @@ const ProfileStyle = styled.div`
   .card {
     border-radius: 1em;
     opacity: 95%;
-    min-width: 350px;
-    margin: 1em 2em;
   }
 
   .card-body {
@@ -17,8 +15,9 @@ const ProfileStyle = styled.div`
   }
 
   img.card-img-top {
+    margin: 2em 1em;
     max-height: 346px;
-    width: 18em;
+    max-width: 14em;
     align-self: center;
     border-radius: 1em;
   }
@@ -26,13 +25,13 @@ const ProfileStyle = styled.div`
   .custom-button {
     width: auto;
     height: 3em;
+    margin-top: 1em
   }
 
   @media (max-width: 660px) {
     margin-top: 0;
     .card {
       border-radius: 0;
-      margin: 0;
     }
   }
 `;
@@ -43,9 +42,9 @@ const Home = () => {
       <ProfileStyle>
         <h1 hidden>Todd Hickam Home Page</h1>
         <div className="row justify-content-center text-center">
-          <div className="col-md-4 col-sm-6">
+          <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="card bg-dark">
-              <img src={thickam} alt="" className="card-img-top mt-4" />
+              <img src={thickam} alt="" className="card-img-top" />
               <div className="card-body bg-dark text-light">
                 <h2 className="card-title fs-3">Todd Hickam</h2>
                 <p className="introduction-body">
