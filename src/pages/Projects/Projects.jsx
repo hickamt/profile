@@ -34,10 +34,12 @@ const ProjectStyles = styled.div`
   }
 
   @media (max-width: 748px) {
-    margin-top: 0;
+    margin: 1em;
+
     .card {
       margin: 1em 2em;
     }
+
     .card-body {
       min-height: 190px;
     }
@@ -54,7 +56,7 @@ const Projects = () => {
         <div className="container">
           <div className="row mx-auto">
             {projects.map((project) => {
-              <CardBody key={project.id} {...project} />;
+              return <CardBody key={project.id} {...project} />;
             })}
           </div>
         </div>
