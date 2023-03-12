@@ -11,7 +11,6 @@ import Home from "./pages/Home/Home";
 
 // Page Styles
 import "./App.css";
-import "./styles/contact.css";
 import "./styles/home.css";
 import "./styles/no-match.css";
 
