@@ -6,7 +6,6 @@ import App from "./App";
 
 // Styles
 import "./index.css";
-// import "./styles/not-found.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

@@ -10,7 +10,6 @@ import NoMatch from "./pages/NoMatch404/NoMatch";
 import Home from "./pages/Home/Home";
 
 // Page Styles
-import "./App.css";
 import "./styles/home.css";
 import "./styles/no-match.css";
 

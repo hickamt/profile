@@ -19,9 +19,9 @@ const FormStyle = styled.div`
       max-width: 100%;
       max-height: auto;
     }
-  fieldset.row {
-    margin-left: 5em;
-  }
+    fieldset.row {
+      margin-left: 5em;
+    }
   }
 `;
 
@@ -72,6 +72,7 @@ const Contact = () => {
               Email
             </label>
           </div>
+
           <fieldset className="row mb-3">
             <legend className="col-form-label pt-0">
               Get alerts on my future projects?
@@ -103,6 +104,7 @@ const Contact = () => {
               </div>
             </div>
           </fieldset>
+
           <div className="row mb-3 justify-content-center">
             <label for="date" className="col-sm-2 col-form-label" hidden>
               Date
