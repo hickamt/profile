@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 
 const FormStyle = styled.div`
@@ -12,6 +11,7 @@ const FormStyle = styled.div`
   fieldset.row {
     margin-left: 7em;
   }
+
   @media (max-width: 680px) {
     form.form {
       border-radius: 0;
@@ -20,7 +20,7 @@ const FormStyle = styled.div`
       max-height: auto;
     }
     fieldset.row {
-      margin-left: 5em;
+      margin-left: 0;
     }
   }
 `;
@@ -72,7 +72,6 @@ const Contact = () => {
               Email
             </label>
           </div>
-
           <fieldset className="row mb-3">
             <legend className="col-form-label pt-0">
               Get alerts on my future projects?
@@ -104,7 +103,6 @@ const Contact = () => {
               </div>
             </div>
           </fieldset>
-
           <div className="row mb-3 justify-content-center">
             <label for="date" className="col-sm-2 col-form-label" hidden>
               Date
