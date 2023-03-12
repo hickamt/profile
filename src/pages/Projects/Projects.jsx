@@ -7,8 +7,10 @@
  mapped inside and was placed outside
 */
 
+import React from "react";
 import styled from "styled-components";
 import CardBody from "./component/CardBody";
+import { projects } from "./data/ProjectData";
 
 const ProjectStyles = styled.div`
   margin-top: 4em;
@@ -51,7 +53,9 @@ const Projects = () => {
         </h1>
         <div className="container">
           <div className="row mx-auto">
-            <CardBody />
+            {projects.map((project) => {
+              <CardBody key={project.id} {...project} />;
+            })}
           </div>
         </div>
       </ProjectStyles>

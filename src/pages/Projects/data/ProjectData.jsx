@@ -1,4 +1,4 @@
-import folderIMG from "./white_folder.png"
+import folderIMG from "./white_folder.png";
 import github from "./github.png";
 import stackblitz from "./stackblitz.png";
 
