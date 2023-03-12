@@ -5,20 +5,29 @@ import { projects } from "./data/ProjectData";
 const ProjectStyles = styled.div`
   margin-top: 4em;
 
-  .card {
-    opacity: 90%;
-    border-radius: 1em;
-    // max-width: 300px;
+  .row {
+    width: auto;
+    height: auto;
   }
 
-  div.body {
+  .card-body {
+    opacity: 90%;
+  }
+
+  .card {
+    border-radius: 1em;
+  }
+
+  .body {
     min-height: 200px;
+    padding-top: 1em;
   }
 
   .custom-button {
     width: auto;
     height: 3em;
     margin-top: 0.5em;
+    margin-bottom: 0.5em;
   }
 
   .card-img-top {
