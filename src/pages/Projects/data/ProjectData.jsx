@@ -13,7 +13,7 @@ export const projects = [
     cardAlt: "",
     cardTitle: "HttpOnly",
     description:
-      "Ongoing project template with ReactJS & ExpressJS using HTTP Only Cookie",
+      "Ongoing project template with React & Express using HTTP Only Cookie",
     buttonHref: "https://stackblitz.com/github/hickamt/HTTP_Only_App_Template",
     buttonSrc: stackblitz,
     buttonAlt: "button image with stack blitz logo",
