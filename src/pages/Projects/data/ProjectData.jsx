@@ -1,3 +1,7 @@
+/* 
+  Data object created in anticipation of this being a JSON object from an
+  API call. Used with CardBody for multiple jsx component render.
+*/
 import folderIMG from "./white_folder.png";
 import github from "./github.png";
 import stackblitz from "./stackblitz.png";
