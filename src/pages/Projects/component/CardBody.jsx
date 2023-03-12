@@ -26,7 +26,7 @@ const CardBody = ({
       <div className="card bg-dark">
         <img src={cardImgSrc} alt={cardImgAlt} className="card-img-top" />
         <div className="body bg-white text-dark text-center pt-3">
-          <h2 className="title fs-3 text-center">{cardBodyTitle}</h2>
+          <h2 className="title fs-3">{cardBodyTitle}</h2>
           <p className="text">{description}</p>
           <a href={buttonHref} target="_blank" className="">
             <img className="custom-button" src={buttonSrc} alt={buttonAlt} />

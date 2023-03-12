@@ -8,6 +8,7 @@ const ProjectStyles = styled.div`
   .card {
     opacity: 90%;
     border-radius: 1em;
+    // max-width: 300px;
   }
 
   div.body {
@@ -18,6 +19,11 @@ const ProjectStyles = styled.div`
     width: auto;
     height: 3em;
     margin-top: 0.5em;
+  }
+
+  .card-img-top {
+    width: 85%;
+    align-self: center;
   }
 
   @media (max-width: 748px) {
