@@ -17,7 +17,7 @@ const ProjectStyles = styled.div`
   .custom-button {
     width: auto;
     height: 3em;
-    margin-top: 1em;
+    margin-top: 0.5em;
   }
 
   @media (max-width: 748px) {

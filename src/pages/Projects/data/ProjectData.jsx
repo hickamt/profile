@@ -9,9 +9,9 @@ import stackblitz from "./stackblitz.png";
 export const projects = [
   {
     id: 0,
-    cardSrc: folderIMG,
-    cardAlt: "",
-    cardTitle: "HttpOnly",
+    cardImgSrc: folderIMG,
+    cardImgAlt: "",
+    cardBodyTitle: "HttpOnly",
     description:
       "Ongoing project template with React & Express using HTTP Only Cookie",
     buttonHref: "https://stackblitz.com/github/hickamt/HTTP_Only_App_Template",
@@ -20,9 +20,9 @@ export const projects = [
   },
   {
     id: 1,
-    cardSrc: folderIMG,
-    cardAlt: "",
-    cardTitle: "PSU Shell",
+    cardImgSrc: folderIMG,
+    cardImgAlt: "",
+    cardBodyTitle: "PSU Shell",
     description:
       "Custom shell exhibiting redirects, piping, and other standard exec() commands",
     buttonHref: "https://github.com/hickamt/PSU-Shell",
@@ -31,9 +31,9 @@ export const projects = [
   },
   {
     id: 2,
-    cardSrc: folderIMG,
-    cardTitle: "Pthreads",
-    cardAlt: "",
+    cardImgSrc: folderIMG,
+    cardImgAlt: "",
+    cardBodyTitle: "Pthreads",
     description:
       "Find all primes to one-billion using multi-thread processing and mutex locks",
     buttonHref: "https://github.com/hickamt",
