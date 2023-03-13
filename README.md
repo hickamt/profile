@@ -1,21 +1,29 @@
 # Todd Hickam | PSU Computer Science Undergraduate
 
-Run this application on StackBlitz:
+This simple application is created withing the requirements of PSU Intro to Web Development. The primary metrics are responsiveness and accessibility. The site has been evaluated using Wave and should meet these requirements.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/hickamt/profile/)
+## View Files and Site on StackBlitz
 
-## Clone and Run this Application Locally
+<a href="https://stackblitz.com/github/hickamt/profile/">
+<img src="./public/stackblitz.png" alt="vscode button" width="auto" height="60px" />
+</a>
+
+## Website on Vercel
+
+<a href="https://profile-hickamt.vercel.app/">
+<img src="./public/vercel.png" alt="vscode button" width="auto" height="60px" />
+</a>
+
+## Clone & Run
+
+After cloning the repo locally, install dependencies and run the app locally
+
 ```c
-// CLI: Clone It
-$ git clone <paste github https url here>
-
-// Change Directory
-$ cd profile
-
-// Install & Run 
 $ npm install && npm run dev
 ```
 
 ## Sources
+
+The background wallpaper used for the website
 
 - [Background Image: Dark Theme Tech](https://cdn.wallpapersafari.com/33/30/e0lEdH.jpg)
