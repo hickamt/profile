@@ -36,7 +36,7 @@ export const projects = [
     cardBodyTitle: "Pthreads",
     description:
       "Find all primes to one-billion using multi-thread processing and mutex locks",
-    buttonHref: "https://github.com/hickamt",
+    buttonHref: "https://github.com/hickamt/primes-and-pthreads",
     buttonSrc: github,
     buttonAlt: "button image of github link",
   },
