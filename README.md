@@ -2,16 +2,16 @@
 
 This simple profile application is created within the requirements of PSU Intro to Web Dev Winter Term 2023. The primary goals are responsiveness and accessibility. The site has been evaluated using Wave and should meet the requirements.
 
+## Deployed on Vercel
+
+<a href="https://profile-hickamt.vercel.app/">
+<img src="./public/vercel.png" alt="vscode button" width="auto" height="60px" />
+</a>
+
 ## View Files and Site on StackBlitz
 
 <a href="https://stackblitz.com/github/hickamt/profile/">
 <img src="./public/stackblitz.png" alt="vscode button" width="auto" height="60px" />
-</a>
-
-## Website on Vercel
-
-<a href="https://profile-hickamt.vercel.app/">
-<img src="./public/vercel.png" alt="vscode button" width="auto" height="60px" />
 </a>
 
 ## Clone & Run
