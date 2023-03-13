@@ -1,6 +1,6 @@
 # Todd Hickam | PSU Computer Science Undergraduate
 
-This simple application is created withing the requirements of PSU Intro to Web Development. The primary metrics are responsiveness and accessibility. The site has been evaluated using Wave and should meet these requirements.
+This simple profile application is created within the requirements of PSU Intro to Web Dev Winter Term 2023. The primary goals are responsiveness and accessibility. The site has been evaluated using Wave and should meet the requirements.
 
 ## View Files and Site on StackBlitz
 
