@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import CardBody from "./component/CardBody";
+import { ProjectCard } from "./component/CardBody";
 import { projects } from "./data/ProjectData";
 
 const ProjectStyles = styled.div`
@@ -15,7 +15,7 @@ const ProjectStyles = styled.div`
   }
 
   .card {
-    border-radius: 1em;
+    border-radius: 1emCardBodo;
   }
 
   .body {
@@ -50,7 +50,7 @@ const Projects = () => {
         <div className="container">
           <div className="row mx-auto">
             {projects.map((project) => {
-              return <CardBody key={project.id} {...project} />;
+              return <ProjectCard key={project.id} {...project} />;
             })}
           </div>
         </div>

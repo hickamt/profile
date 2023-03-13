@@ -3,8 +3,8 @@
   API call. Used with CardBody for multiple jsx component render.
 */
 import folderIMG from "./white_folder.png";
-import github from "./github.png";
-import stackblitz from "./stackblitz.png";
+import github from "./project_img/github.png";
+import stackblitz from "./project_img/stackblitz.png";
 
 export const projects = [
   {
