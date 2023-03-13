@@ -28,6 +28,11 @@ const Layout = () => {
                   Projects
                 </Link>
               </li>
+              {/* <li className="nav-item active">
+                <Link className="nav-link" to="/hobbies">
+                  Hobbies
+                </Link>
+              </li> */}
               <li className="nav-item active">
                 <Link className="nav-link" to="/resume">
                   Resume
@@ -42,7 +47,7 @@ const Layout = () => {
           </div>
         </div>
       </nav>
-        <Outlet />
+      <Outlet />
 
       {/* Footer */}
       {/* <footer className="footer py-3 bg-light font-dark fixed-bottom">

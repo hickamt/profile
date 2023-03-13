@@ -47,11 +47,12 @@ const Home = () => {
               <img src={thickam} alt="" className="card-img-top" />
               <div className="card-body bg-dark text-light">
                 <h2 className="card-title fs-3">Todd Hickam</h2>
-                <p className="introduction-body">Portland, Oregon Resident</p>
-                <p className="introduction-body ">Computer Science Undergrad</p>
+                <p className="introduction-body">Portland, OR</p>
+                <p className="introduction-body ">CS Undergraduate</p>
                 <p className="introduction-body ">Web Dev Passionate</p>
                 <p className="introduction-body ">Knowledge Disseminater</p>
                 <p className="introduction-body ">Photo & Music Hobbyist</p>
+                <p className="introduction-body ">Car Enthusiast</p>
                 <a
                   href="https://github.com/hickamt"
                   target="_blank"

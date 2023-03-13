@@ -15,7 +15,7 @@ const ProjectStyles = styled.div`
   }
 
   .card {
-    border-radius: 1emCardBodo;
+    border-radius: 1em;
   }
 
   .body {
