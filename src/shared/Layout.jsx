@@ -1,4 +1,3 @@
-// import { useState } from "react";
 import { Outlet, Link } from "react-router-dom";
 
 // Bootstrap 5 Nav Docs: https://getbootstrap.com/docs/5.0/components/navbar/
@@ -48,13 +47,6 @@ const Layout = () => {
         </div>
       </nav>
       <Outlet />
-
-      {/* Footer */}
-      {/* <footer className="footer py-3 bg-light font-dark fixed-bottom">
-        <div className="container text-center fs-6">
-          <span className="text-dark">Todd Hickam | PSU Winter 2023</span>
-        </div>
-      </footer> */}
     </>
   );
 };
