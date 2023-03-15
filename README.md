@@ -22,9 +22,7 @@ After cloning the repo locally, install dependencies and run the app locally
 $ npm install && npm run dev
 ```
 
-## Sources
-
-The background wallpaper used for the website
+## Image Sources
 
 - [Background Image: Dark Theme Tech](https://cdn.wallpapersafari.com/33/30/e0lEdH.jpg)
 - [404 Page Image: Peugeot 404 Cabriolet Model](https://www.cgtrader.com/3d-models/car/antique-car/peugeot-404-cabriolet)

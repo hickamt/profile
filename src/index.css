@@ -1,8 +1,6 @@
 * {
   box-sizing: border-box;
 }
-/* No Display on Scroll Bar */
-/* ::-webkit-scrollbar {display: none;} */
 
 :root {
   --background: #242424;
@@ -10,7 +8,6 @@
   --text: white;
 }
 
-/* Layout */
 body {
   margin: 0;
   padding: 0;
@@ -21,15 +18,6 @@ body {
   color: var(--text);
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
-
-/* body > .resume {
-  overflow-y: hidden;
-}
-
-@media (max-width: 679.98px) {
-  body {
-  }
-} */
 
 .navbar {
   z-index: 2;

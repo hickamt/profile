@@ -16,17 +16,8 @@ p.introduction::first-line {
 @media (min-width: 680px) {
   div.profile-body {
     max-width: 40%;
-    /* padding: 1em 0 1em 10em; */
-    /* margin-top: 2em; */
   }
   div.profile-image {
     margin-right: 8em;
-  }
-}
-
-@media (max-width: 679.98px) {
-  div.profile-body {
-    /* text-align: center; */
-    /* padding: 1em; */
   }
 }

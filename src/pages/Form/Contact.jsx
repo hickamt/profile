@@ -111,14 +111,6 @@ const Contact = () => {
               </div>
             </div>
           </fieldset>
-          {/* <div className="row mb-3 justify-content-center">
-            <label for="date" className="col-sm-2 col-form-label" hidden>
-              Date
-            </label>
-            <div className="col-md-8 col-sm-12">
-              <input type="date" className="form-control" id="date" />
-            </div>
-          </div> */}
           <div className="d-flex gap-1 justify-content-center py-2">
             <button
               id="submit"

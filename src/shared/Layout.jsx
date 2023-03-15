@@ -1,6 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
 
-// Bootstrap 5 Nav Docs: https://getbootstrap.com/docs/5.0/components/navbar/
 const Layout = () => {
   return (
     <>
@@ -27,11 +26,6 @@ const Layout = () => {
                   Projects
                 </Link>
               </li>
-              {/* <li className="nav-item active">
-                <Link className="nav-link" to="/hobbies">
-                  Hobbies
-                </Link>
-              </li> */}
               <li className="nav-item active">
                 <Link className="nav-link" to="/resume">
                   Resume

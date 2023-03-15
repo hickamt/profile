@@ -1,4 +1,11 @@
-import NoMatchIMG from "./peugeot-404.png"
+import NoMatchIMG from "./peugeot-404.png";
+import styled from "styled-components";
+
+const NotFoundStyles = styled.div`
+  .img-404 {
+    opacity: 90%;
+  }
+`;
 
 const NoMatch = () => {
   return (
