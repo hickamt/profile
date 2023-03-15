@@ -6,10 +6,17 @@ const FormStyle = styled.div`
     border-radius: 0.5em;
     opacity: 95%;
     width: 500px;
-    padding: 2em;
+    // padding: 2em;
   }
+
   fieldset.row {
     margin-left: 7em;
+  }
+
+  label[for="text_first"],
+  label[for="text_last"],
+  label[for="email"] {
+    visibility: hidden;
   }
 
   @media (max-width: 680px) {
@@ -19,8 +26,15 @@ const FormStyle = styled.div`
       max-width: 100%;
       max-height: auto;
     }
+
     fieldset.row {
       margin-left: 0;
+    }
+
+    label[for="text_first"],
+    label[for="text_last"],
+    label[for="email"] {
+      visibility: visible;
     }
   }
 `;
@@ -34,32 +48,29 @@ const Contact = () => {
             <h1 className="fs-2 fw-bold text-center">CONTACT FORM</h1>
           </div>
           <div className="row mb-3 mt-3 justify-content-center">
+            <label for="text_first">First Name</label>
             <div className="col-md-8 col-sm-12">
               <input
-                placeholder="First name"
+                placeholder="First"
                 type="text"
                 className="form-control"
                 id="text_first"
               />
             </div>
-            <label for="text_first" hidden>
-              First Name
-            </label>
           </div>
           <div className="row mb-3 mt-3 justify-content-center">
+            <label for="text_last">Last Name</label>
             <div className="col-md-8 col-sm-12">
               <input
-                placeholder="Last name"
+                placeholder="Last"
                 type="text"
                 className="form-control"
                 id="text_last"
               />
             </div>
-            <label for="text_last" hidden>
-              Last Name
-            </label>
           </div>
           <div className="row mb-3 justify-content-center">
+            <label for="email">Email</label>
             <div className="col-md-8 col-sm-12">
               <input
                 placeholder="Email"
@@ -68,9 +79,6 @@ const Contact = () => {
                 id="email"
               />
             </div>
-            <label for="email" hidden>
-              Email
-            </label>
           </div>
           <fieldset className="row mb-3">
             <legend className="col-form-label pt-0">
@@ -103,14 +111,14 @@ const Contact = () => {
               </div>
             </div>
           </fieldset>
-          <div className="row mb-3 justify-content-center">
+          {/* <div className="row mb-3 justify-content-center">
             <label for="date" className="col-sm-2 col-form-label" hidden>
               Date
             </label>
             <div className="col-md-8 col-sm-12">
               <input type="date" className="form-control" id="date" />
             </div>
-          </div>
+          </div> */}
           <div className="d-flex gap-1 justify-content-center py-2">
             <button
               id="submit"
