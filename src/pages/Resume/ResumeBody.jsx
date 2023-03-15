@@ -1,5 +1,5 @@
 import React from "react";
-import ResumePDF from "./Todd_Hickam_Resume_2023.pdf";
+import ResumePDF from "./Todd_Hickam_Resume.pdf";
 
 const ResumeBody = () => {
   const downloadPDF = () => {
@@ -19,10 +19,8 @@ const ResumeBody = () => {
       {/* Heading */}
       <div className="contact-details text-center">
         <p className="mb-0">Todd J. Hickam</p>
-        <p className="mb-0">1622 S Dogwood St.</p>
-        <p className="mb-0">Cornelius, OR 97113</p>
+        <p className="mb-0">Portland, OR</p>
         <p className="mb-3">
-          (503) 593-1094 or{" "}
           <a className="text-light" href="mailto:Hickam.T@Outlook.Com">
             Hickam.T@Outlook.Com
           </a>
