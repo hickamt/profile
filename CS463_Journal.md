@@ -2,11 +2,7 @@
 
 - [Deployed on Vercel:](https://profile-hickamt.vercel.app)
 
-- [GitHub Repository:](https://github.com/hickamt/profile)
-
-- [Vite Dev Docs](https://vitejs.dev/guide/)
-
-  Vite allows hot module replacement that is faster than create-react-app.
+- [Vite Dev Docs: ](https://vitejs.dev/guide/) I chose Vite as it allows faster hot module replacement than create-react-app.
 
 ## DEPENDENCIES
 
