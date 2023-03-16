@@ -2,6 +2,8 @@
 
 This simple profile application is created within the requirements of PSU Intro to Web Dev Winter Term 2023. The primary goals are responsiveness and accessibility. The site has been evaluated using Wave and should meet the accessibility requirements. After a number of tests, it is also responsive across most devices.
 
+- [Build Journal](CS463_Journal.md)
+
 ## Deployed on Vercel
 
 <a href="https://profile-hickamt.vercel.app/">
