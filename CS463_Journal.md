@@ -7,6 +7,8 @@
 ## DEPENDENCIES
 
 ```
+- Running Node      16.14
+- npm               8.11
 • Bootstrap         5
 • React             18
 • React-dom         18
