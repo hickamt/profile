@@ -4,17 +4,15 @@
 
 - [Vite Dev Docs: ](https://vitejs.dev/guide/) I chose Vite as it allows faster hot module replacement than create-react-app.
 
-## DEPENDENCIES
-
 ```
-- Running Node      16.14
-- npm               8.11
-• Bootstrap         5
-• React             18
-• React-dom         18
-• React-router-dom  6
-• React-markdown    8
-• Styled-components 5
+- Running Node 16.14
+- npm 8.11
+- Bootstrap 5
+- React 18
+- React-dom 18
+- React-router-dom 6
+- React-markdown 8
+- Styled-components 5
 ```
 
 ## DEPLOYMENT
