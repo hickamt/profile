@@ -1,6 +1,6 @@
 # Todd Hickam | Profile Journal | CS463 Winter 2023
 
-- [Deployed on Vercel:](https://profile-hickamt.vercel.app)
+- [Website Deployed by Vercel](https://profile-hickamt.vercel.app)
 
 - [Vite Dev Docs: ](https://vitejs.dev/guide/) I chose Vite as it allows faster hot module replacement than create-react-app.
 
